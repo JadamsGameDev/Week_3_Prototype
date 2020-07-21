@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 941
-  m_MinSize: {x: 508, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 508, y: 344}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 54
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,13 +120,13 @@ MonoBehaviour:
     y: 569
     width: 1518
     height: 372
-  m_MinSize: {x: 232, y: 272}
-  m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
-  m_Selected: 0
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1904
     height: 991
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 1518
     height: 941
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 406, y: 344}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 13
+  controlID: 147
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 14
+  controlID: 148
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
     width: 384
     height: 922
   m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
+  progressMessageClearTime: 3903.2616982
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -393,8 +393,8 @@ MonoBehaviour:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    commitBody: Git app made some changes
-    commitMessage: GitInitial
+    commitBody: a pointless commit cause git ignore is not working properly
+    commitMessage: sorting out git ignore
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
@@ -407,8 +407,6 @@ MonoBehaviour:
         - Week_3_Stacking_Prototype\Library
         - Week_3_Stacking_Prototype\Library\gfu
         - Week_3_Stacking_Prototype\Library\gfu\cache
-        - Week_3_Stacking_Prototype\Temp
-        - Week_3_Stacking_Prototype\Temp\ProcessJobs
         values:
         - path: Week_3_Stacking_Prototype
           label: Week_3_Stacking_Prototype
@@ -419,7 +417,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 2
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -437,7 +435,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 2
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -455,7 +453,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
+          checkState: 2
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -473,43 +471,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Week_3_Stacking_Prototype\Temp
-          label: Temp
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Week_3_Stacking_Prototype\Temp\ProcessJobs
-          label: ProcessJobs
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
+          checkState: 2
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -546,6 +508,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: .gitattributes
+        label: .gitattributes
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitattributes
+          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\.gitattributes
+          projectPath: ..\.gitattributes
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\.gitignore
+          projectPath: ..\.gitignore
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
       - path: Week_3_Stacking_Prototype
         label: Week_3_Stacking_Prototype
         level: 0
@@ -555,7 +553,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 2
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -564,6 +562,42 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Week_3_Stacking_Prototype\.gitattributes
+        label: .gitattributes
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Week_3_Stacking_Prototype\.gitattributes
+          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Week_3_Stacking_Prototype\.gitignore
+        label: .gitignore
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Week_3_Stacking_Prototype\.gitignore
+          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Week_3_Stacking_Prototype\Library
         label: Library
         level: 1
@@ -573,7 +607,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 2
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -582,42 +616,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
-        label: CurrentLayout-default.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
-          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
-          projectPath: Library\CurrentLayout-default.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Week_3_Stacking_Prototype\Library\EditorInstance.json
-        label: EditorInstance.json
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Week_3_Stacking_Prototype\Library\EditorInstance.json
-          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\EditorInstance.json
-          projectPath: Library\EditorInstance.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Week_3_Stacking_Prototype\Library\gfu
         label: gfu
         level: 2
@@ -627,7 +625,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 2
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -645,7 +643,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 2
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -670,8 +668,8 @@ MonoBehaviour:
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
           projectPath: Library\gfu\cache\branches.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
         label: gitlocks.yaml
         level: 4
@@ -681,15 +679,15 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
           projectPath: Library\gfu\cache\gitlocks.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
         label: gitlog.yaml
         level: 4
@@ -706,8 +704,8 @@ MonoBehaviour:
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
           projectPath: Library\gfu\cache\gitlog.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
         label: gitstatusentries.yaml
         level: 4
@@ -717,15 +715,15 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
           projectPath: Library\gfu\cache\gitstatusentries.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
         label: gittrackingstatus.yaml
         level: 4
@@ -735,15 +733,15 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
           projectPath: Library\gfu\cache\gittrackingstatus.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
         label: gituser.yaml
         level: 4
@@ -753,15 +751,15 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
           projectPath: Library\gfu\cache\gituser.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
         label: repoinfo.yaml
         level: 4
@@ -771,97 +769,25 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 0
+        checkState: 1
         isLocked: 0
         gitStatusEntry:
           path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
           fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
           projectPath: Library\gfu\cache\repoinfo.yaml
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Week_3_Stacking_Prototype\Temp
-        label: Temp
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Week_3_Stacking_Prototype\Temp\ProcessJobs
-        label: ProcessJobs
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-        label: ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-          projectPath: Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Week_3_Stacking_Prototype\Temp\UnityLockfile
-        label: UnityLockfile
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Week_3_Stacking_Prototype\Temp\UnityLockfile
-          fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Temp\UnityLockfile
-          projectPath: Temp\UnityLockfile
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       selectedNode:
-        path: Week_3_Stacking_Prototype
-        label: Week_3_Stacking_Prototype
+        path: 
+        label: 
         level: 0
-        isFolder: 1
+        isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
@@ -872,15 +798,27 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
-      projectPath: Library\CurrentLayout-default.dwlt
+    - path: .gitattributes
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\.gitattributes
+      projectPath: ..\.gitattributes
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Week_3_Stacking_Prototype\Library\EditorInstance.json
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\EditorInstance.json
-      projectPath: Library\EditorInstance.json
+      workTreeStatus: 5
+    - path: .gitignore
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Week_3_Stacking_Prototype\.gitattributes
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Week_3_Stacking_Prototype\.gitignore
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\.gitignore
+      projectPath: .gitignore
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -888,65 +826,53 @@ MonoBehaviour:
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
       projectPath: Library\gfu\cache\branches.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
       projectPath: Library\gfu\cache\gitlocks.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
       projectPath: Library\gfu\cache\gitlog.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
       projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
       projectPath: Library\gfu\cache\gituser.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
       projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-      projectPath: Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Week_3_Stacking_Prototype\Temp\UnityLockfile
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Temp\UnityLockfile
-      projectPath: Temp\UnityLockfile
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-07-22T10:40:41.192+12:00
+      updatedTimeString: 2020-07-22T11:42:26.712+12:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-07-22T10:43:10.026+12:00
+      updatedTimeString: 2020-07-22T11:49:57.886+12:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-07-22T10:40:42.269+12:00
+      updatedTimeString: 2020-07-22T11:49:57.992+12:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -50039,7 +49965,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2020-07-22T10:35:04.541+12:00
+      updatedTimeString: 2020-07-22T10:45:12.303+12:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/JadamsGameDev/Week_3_Prototype.git
@@ -50053,7 +49979,7 @@ MonoBehaviour:
       newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2020-07-22T10:37:55.287+12:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -50064,10 +49990,29 @@ MonoBehaviour:
     keychainHasUpdate: 0
     locksControl:
       scroll: {x: 0, y: 0}
-      gitLockEntries: []
+      gitLockEntries:
+      - gitLock:
+          id: 280638
+          path: Week_3_Stacking_Prototype/Assets/Scenes/SampleScene.unity
+          owner:
+            name: JadamsGameDev
+            email: 
+          lockedAtString: 2020-07-21T23:27:15Z
+        gitFileStatus: 0
+        lockedAt: Today, 11:27
       assets:
-        keys: []
-        values: []
+        keys:
+        - 9fc0d4010bbf28b4594072e72b8655ab
+        values:
+        - gitLock:
+            id: 280638
+            path: Week_3_Stacking_Prototype/Assets/Scenes/SampleScene.unity
+            owner:
+              name: JadamsGameDev
+              email: 
+            lockedAtString: 2020-07-21T23:27:15Z
+          gitFileStatus: 0
+          lockedAt: Today, 11:27
       gitStatusDictionary:
         keys: []
         values: []
@@ -50082,15 +50027,21 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 12:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2020-07-22T10:35:04.541+12:00
+      updatedTimeString: 2020-07-22T10:45:12.303+12:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2020-07-22T10:37:29.279+12:00
+      updatedTimeString: 2020-07-22T11:27:16.940+12:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-07-22T10:37:28.512+12:00
+      updatedTimeString: 2020-07-22T11:27:01.061+12:00
       cacheType: 6
-    lockedFiles: []
+    lockedFiles:
+    - id: 280638
+      path: Week_3_Stacking_Prototype/Assets/Scenes/SampleScene.unity
+      owner:
+        name: JadamsGameDev
+        email: 
+      lockedAtString: 2020-07-21T23:27:15Z
     gitStatusEntries:
     - path: Week_3_Stacking_Prototype\Library\EditorInstance.json
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\EditorInstance.json
@@ -50098,48 +50049,36 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
-      projectPath: Library\gfu\cache\branches.yaml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
       projectPath: Library\gfu\cache\gitlocks.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
-      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
-      projectPath: Library\gfu\cache\gitlog.yaml
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
       projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
       projectPath: Library\gfu\cache\gituser.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
       projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
     - path: Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
       fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
       projectPath: Temp\ProcessJobs\ab30c7bcae888f8a20ac9ec5bfbfa3a6.bakert
@@ -50178,13 +50117,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-07-22T10:40:41.192+12:00
+    updatedTimeString: 2020-07-22T11:42:26.712+12:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-07-22T10:40:42.259+12:00
+    updatedTimeString: 2020-07-22T11:42:26.637+12:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-07-22T10:43:10.026+12:00
+    updatedTimeString: 2020-07-22T11:49:57.886+12:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -50202,8 +50141,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 0.5
   appManagerProgressMessage: Setting up git...
   connections: []
@@ -50273,19 +50212,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e2d0000
-    m_LastClickedID: 11566
+    m_SelectedIDs: 682d0000
+    m_LastClickedID: 11624
     m_ExpandedIDs: 000000002e2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -50665,7 +50604,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
-    y: 718
-    width: 1366
-    height: 308
+    y: 650
+    width: 1518
+    height: 353
   m_ViewDataDictionary: {fileID: 0}

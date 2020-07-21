@@ -13,9 +13,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-07-22T10:37:18.281+12:00
-  initializedAtString: 2020-07-22T10:26:41.200+12:00
+  lastUpdatedAtString: 2020-07-22T11:42:27.319+12:00
+  initializedAtString: 2020-07-22T11:42:27.319+12:00
   log:
+  - commitID: aa843bcabf2f5bced6b20977d1d7d6205023e18d
+    mergeA: 
+    mergeB: 
+    authorName: John
+    authorEmail: jadams.gamedev@gmail.com
+    commitEmail: jadams.gamedev@gmail.com
+    commitName: John
+    summary: GitInitial
+    description: Git app made some changes
+    timeString: 2020-07-22T10:44:43.000+12:00
+    commitTimeString: 2020-07-22T10:44:43.000+12:00
+    changes:
+    - path: Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: fc27a22d6bbd0de7d36c88a71b8dd0d195c1cfd2
     mergeA: 
     mergeB: 

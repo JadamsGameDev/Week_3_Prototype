@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
-  lastUpdatedAtString: 2020-07-22T10:43:12.161+12:00
-  initializedAtString: 2020-07-22T10:40:42.269+12:00
-  gitLocks: []
+  lastUpdatedAtString: 2020-07-22T11:49:57.992+12:00
+  initializedAtString: 2020-07-22T10:45:13.419+12:00
+  gitLocks:
+  - id: 280638
+    path: Week_3_Stacking_Prototype/Assets/Scenes/SampleScene.unity
+    owner:
+      name: JadamsGameDev
+      email: 
+    lockedAtString: 2020-07-21T23:27:15Z
