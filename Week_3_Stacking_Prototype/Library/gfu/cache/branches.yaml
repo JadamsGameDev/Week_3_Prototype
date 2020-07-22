@@ -13,14 +13,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-07-22T12:03:11.962+12:00
   initializedAtString: 2020-07-22T11:27:13.020+12:00
+=======
+  lastUpdatedAtString: 2020-07-22T11:42:26.757+12:00
+  initializedAtString: 2020-07-22T11:42:26.723+12:00
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
+<<<<<<< HEAD
   - name: origin/HEAD
     tracking: '[None]'
+=======
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86
   - name: origin/master
     tracking: '[None]'
   remotes:
@@ -45,6 +53,7 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+<<<<<<< HEAD
       - HEAD
       - master
     subKeyValues:
@@ -54,6 +63,11 @@ MonoBehaviour:
           name: origin
           url: https://github.com/JadamsGameDev/Week_3_Prototype.git
         trackingBranch: 
+=======
+      - master
+    subKeyValues:
+    - Values:
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86
       - name: master
         remote:
           name: origin

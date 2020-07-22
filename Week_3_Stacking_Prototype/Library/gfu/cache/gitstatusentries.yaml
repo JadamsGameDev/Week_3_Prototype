@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-07-22T11:24:19.585+12:00
   initializedAtString: 2020-07-22T11:01:08.500+12:00
   entries:
@@ -4100,3 +4101,44 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+=======
+  lastUpdatedAtString: 2020-07-22T12:16:07.587+12:00
+  initializedAtString: 2020-07-22T12:12:02.549+12:00
+  entries:
+  - path: Week_3_Stacking_Prototype\.gitignore
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\.gitignore
+    projectPath: .gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\Users\jonathan.ada9069\Documents\GitHub\Week_3_Prototype\Week_3_Stacking_Prototype\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86

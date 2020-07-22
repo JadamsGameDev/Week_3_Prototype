@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-07-22T11:27:13.029+12:00
   initializedAtString: 2020-07-22T11:01:07.735+12:00
+=======
+  lastUpdatedAtString: 2020-07-22T12:12:01.587+12:00
+  initializedAtString: 2020-07-22T12:12:01.587+12:00
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86
   currentGitRemote:
     name: origin
     url: https://github.com/JadamsGameDev/Week_3_Prototype.git
