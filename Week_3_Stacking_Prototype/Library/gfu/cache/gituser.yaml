@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 8
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-07-22T11:27:48.463+12:00
   initializedAtString: 2020-07-22T11:27:48.457+12:00
+=======
+<<<<<<< HEAD
+  lastUpdatedAtString: 2020-07-22T11:27:32.732+12:00
+  initializedAtString: 2020-07-22T11:27:32.726+12:00
+=======
+  lastUpdatedAtString: 2020-07-22T11:33:35.209+12:00
+  initializedAtString: 2020-07-22T10:45:40.508+12:00
+>>>>>>> d390bee2263ac291768b5e5e1b6e63efd7dd6f86
+>>>>>>> 67ca096dd8e952171efed3d0de18e38e777014f9
   gitName: 
   gitEmail: 
